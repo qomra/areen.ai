@@ -428,6 +428,10 @@
       }
     }
 
+    .mobile-lang {
+      display: none;
+    }
+
     @media (max-width: 640px) {
       header, .hero, .products, footer {
         padding-left: 24px;
@@ -436,6 +440,10 @@
 
       nav {
         display: none;
+      }
+
+      .mobile-lang {
+        display: block;
       }
     }
   </style>
@@ -447,6 +455,7 @@
   </div>
 
   <header>
+    <a href="/ar/index.html" class="lang-btn mobile-lang">عربي</a>
     <div class="logo">
       <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
         <g fill="#0a674b">
