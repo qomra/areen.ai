@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Areen - Empowering Education with AI</title>
+  <title>أرين - تمكين التعليم بالذكاء الاصطناعي</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
@@ -14,13 +14,12 @@
     }
 
     body {
-      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      font-family: 'IBM Plex Sans Arabic', -apple-system, sans-serif;
       background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 50%, #f0fdfa 100%);
       min-height: 100vh;
       overflow-x: hidden;
     }
 
-    /* Animated background shapes */
     .bg-shapes {
       position: fixed;
       top: 0;
@@ -44,7 +43,7 @@
       height: 400px;
       background: linear-gradient(135deg, #10b981, #14b8a6);
       top: -100px;
-      right: -100px;
+      left: -100px;
       animation: float 20s ease-in-out infinite;
     }
 
@@ -53,7 +52,7 @@
       height: 300px;
       background: linear-gradient(135deg, #0d9488, #059669);
       bottom: 100px;
-      left: -50px;
+      right: -50px;
       animation: float 15s ease-in-out infinite reverse;
     }
 
@@ -63,7 +62,6 @@
       66% { transform: translate(-20px, 20px) rotate(-5deg); }
     }
 
-    /* Header */
     header {
       position: relative;
       z-index: 10;
@@ -120,13 +118,14 @@
       font-size: 14px;
       cursor: pointer;
       transition: all 0.2s;
+      text-decoration: none;
+      color: #374151;
     }
 
     .lang-btn:hover {
       border-color: #0a674b;
     }
 
-    /* Hero */
     .hero {
       position: relative;
       z-index: 10;
@@ -140,9 +139,9 @@
     }
 
     .hero-content h1 {
-      font-size: 56px;
+      font-size: 52px;
       font-weight: 700;
-      line-height: 1.1;
+      line-height: 1.2;
       color: #111827;
       margin-bottom: 24px;
     }
@@ -156,7 +155,7 @@
     .hero-content p {
       font-size: 20px;
       color: #6b7280;
-      line-height: 1.6;
+      line-height: 1.8;
       margin-bottom: 40px;
     }
 
@@ -226,7 +225,6 @@
       50% { transform: scale(1.02); }
     }
 
-    /* Products */
     .products {
       position: relative;
       z-index: 10;
@@ -247,7 +245,6 @@
       color: #0a674b;
       font-size: 13px;
       font-weight: 600;
-      text-transform: uppercase;
       letter-spacing: 1px;
       border-radius: 20px;
       margin-bottom: 16px;
@@ -316,7 +313,7 @@
     .product-description {
       font-size: 18px;
       color: #6b7280;
-      line-height: 1.7;
+      line-height: 1.8;
       margin-bottom: 32px;
     }
 
@@ -353,10 +350,9 @@
     }
 
     .product-card:hover .product-cta svg {
-      transform: translateX(4px);
+      transform: translateX(-4px);
     }
 
-    /* Footer */
     footer {
       position: relative;
       z-index: 10;
@@ -400,7 +396,7 @@
       }
 
       .hero-content h1 {
-        font-size: 40px;
+        font-size: 36px;
       }
 
       .hero-cta {
@@ -464,28 +460,27 @@
           <path d="M655.75,560.11s58.3-24.65,71.22-34.43c-.78.39-.39,28.57-71.22,34.43Z"/>
         </g>
       </svg>
-      <span class="logo-text">Areen</span>
+      <span class="logo-text">أرين</span>
     </div>
     <nav>
-      <a href="#products">Products</a>
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
-      <a href="/ar/" class="lang-btn">عربي</a>
+      <a href="#products">منتجاتنا</a>
+      <a href="/ar/contact.html">تواصل معنا</a>
+      <a href="/" class="lang-btn">English</a>
     </nav>
   </header>
 
   <section class="hero">
     <div class="hero-content">
-      <h1>Empowering <span>Education</span> with AI</h1>
-      <p>We build intelligent tools that make knowledge accessible to everyone, everywhere. Breaking language barriers and transforming how the world learns.</p>
+      <h1>تمكين <span>التعليم</span> بالذكاء الاصطناعي</h1>
+      <p>نبني أدوات ذكية تجعل المعرفة في متناول الجميع، في كل مكان. نكسر حواجز اللغة ونغير طريقة تعلم العالم.</p>
       <div class="hero-cta">
         <a href="#products" class="btn-primary">
-          Explore Products
+          استكشف منتجاتنا
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
           </svg>
         </a>
-        <a href="/about" class="btn-secondary">Learn More</a>
+        <a href="/ar/contact.html" class="btn-secondary">تواصل معنا</a>
       </div>
     </div>
     <div class="hero-visual">
@@ -512,8 +507,8 @@
 
   <section class="products" id="products">
     <div class="section-header">
-      <span class="section-label">Our Products</span>
-      <h2>Tools for Modern Learning</h2>
+      <span class="section-label">منتجاتنا</span>
+      <h2>أدوات للتعلم الحديث</h2>
     </div>
 
     <a href="https://baheth.areen.ai" class="product-card">
@@ -524,37 +519,37 @@
           </svg>
         </div>
         <div class="product-title">
-          <h3>Baheth</h3>
-          <span>باحث</span>
+          <h3>باحث</h3>
+          <span>Baheth</span>
         </div>
       </div>
       <p class="product-description">
-        Your AI-powered research companion. Read and understand academic papers in any language with intelligent translations, summaries, and explanations. Perfect for researchers, students, and curious minds.
+        رفيقك البحثي المدعوم بالذكاء الاصطناعي. اقرأ وافهم الأوراق الأكاديمية بأي لغة مع ترجمات ذكية وملخصات وشروحات. مثالي للباحثين والطلاب والعقول الفضولية.
       </p>
       <div class="product-features">
         <span class="feature">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M5 13l4 4L19 7"/>
           </svg>
-          Smart Translation
+          ترجمة ذكية
         </span>
         <span class="feature">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M5 13l4 4L19 7"/>
           </svg>
-          AI Summaries
+          ملخصات بالذكاء الاصطناعي
         </span>
         <span class="feature">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M5 13l4 4L19 7"/>
           </svg>
-          Paper Explanations
+          شرح الأوراق البحثية
         </span>
       </div>
       <span class="product-cta">
-        Open Baheth
+        افتح باحث
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M5 12h14M12 5l7 7-7 7"/>
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
         </svg>
       </span>
     </a>
@@ -563,11 +558,11 @@
   <footer>
     <div class="footer-content">
       <div class="footer-links">
-        <a href="/privacy.html">Privacy Policy</a>
-        <a href="/terms.html">Terms of Service</a>
-        <a href="/contact.html">Contact Us</a>
+        <a href="/ar/privacy.html">سياسة الخصوصية</a>
+        <a href="/ar/terms.html">شروط الخدمة</a>
+        <a href="/ar/contact.html">تواصل معنا</a>
       </div>
-      <div class="copyright">&copy; 2026 Areen. All rights reserved.</div>
+      <div class="copyright">&copy; 2026 أرين. جميع الحقوق محفوظة.</div>
     </div>
   </footer>
 </body>

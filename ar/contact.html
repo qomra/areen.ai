@@ -1,30 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Areen</title>
+  <title>تواصل معنا - أرين</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      font-family: 'IBM Plex Sans Arabic', -apple-system, sans-serif;
       background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 50%, #f0fdfa 100%);
       min-height: 100vh;
       display: flex;
       flex-direction: column;
     }
-
-    header {
-      padding: 20px 48px;
-    }
-
+    header { padding: 20px 48px; }
     .header-content {
       max-width: 1200px;
       margin: 0 auto;
@@ -32,19 +23,13 @@
       justify-content: space-between;
       align-items: center;
     }
-
     .logo {
       display: flex;
       align-items: center;
       gap: 10px;
       text-decoration: none;
     }
-
-    .logo svg {
-      width: 32px;
-      height: 32px;
-    }
-
+    .logo svg { width: 32px; height: 32px; }
     .logo-text {
       font-size: 20px;
       font-weight: 700;
@@ -52,7 +37,6 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-
     .back-link {
       color: #6b7280;
       text-decoration: none;
@@ -62,11 +46,7 @@
       gap: 6px;
       transition: color 0.2s;
     }
-
-    .back-link:hover {
-      color: #0a674b;
-    }
-
+    .back-link:hover { color: #0a674b; }
     main {
       flex: 1;
       display: flex;
@@ -76,28 +56,24 @@
       padding: 60px 24px;
       text-align: center;
     }
-
     h1 {
       font-size: 48px;
       font-weight: 700;
       color: #111827;
       margin-bottom: 16px;
     }
-
     .subtitle {
       font-size: 18px;
       color: #6b7280;
       margin-bottom: 48px;
       max-width: 500px;
     }
-
     .contact-cards {
       display: flex;
       gap: 24px;
       flex-wrap: wrap;
       justify-content: center;
     }
-
     .contact-card {
       background: white;
       border-radius: 16px;
@@ -108,12 +84,10 @@
       color: inherit;
       transition: all 0.3s;
     }
-
     .contact-card:hover {
       transform: translateY(-4px);
       box-shadow: 0 12px 40px rgba(10, 103, 75, 0.15);
     }
-
     .contact-icon {
       width: 56px;
       height: 56px;
@@ -124,79 +98,52 @@
       justify-content: center;
       margin: 0 auto 20px;
     }
-
-    .contact-icon svg {
-      width: 28px;
-      height: 28px;
-    }
-
+    .contact-icon svg { width: 28px; height: 28px; }
     .contact-card h3 {
       font-size: 18px;
       font-weight: 600;
       color: #111827;
       margin-bottom: 8px;
     }
-
     .contact-card p {
       font-size: 14px;
       color: #6b7280;
       margin-bottom: 16px;
     }
-
     .contact-link {
       color: #0a674b;
       font-weight: 500;
       font-size: 14px;
     }
-
     footer {
       padding: 32px 48px;
       text-align: center;
     }
-
     .footer-links {
       display: flex;
       justify-content: center;
       gap: 32px;
       margin-bottom: 16px;
     }
-
     .footer-links a {
       color: #6b7280;
       text-decoration: none;
       font-size: 14px;
       transition: color 0.2s;
     }
-
-    .footer-links a:hover {
-      color: #0a674b;
-    }
-
-    .copyright {
-      font-size: 13px;
-      color: #9ca3af;
-    }
-
+    .footer-links a:hover { color: #0a674b; }
+    .copyright { font-size: 13px; color: #9ca3af; }
     @media (max-width: 640px) {
-      header {
-        padding: 16px 24px;
-      }
-
-      h1 {
-        font-size: 32px;
-      }
-
-      .contact-card {
-        width: 100%;
-        max-width: 320px;
-      }
+      header { padding: 16px 24px; }
+      h1 { font-size: 32px; }
+      .contact-card { width: 100%; max-width: 320px; }
     }
   </style>
 </head>
 <body>
   <header>
     <div class="header-content">
-      <a href="/" class="logo">
+      <a href="/ar/" class="logo">
         <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
           <g fill="#0a674b">
             <path d="M335.33,724.21c6.19-9.03,11.36-17.77,15.97-27.37l21.17-44.05c-34.39,2.88-73.09-6.18-88.49-38.61-10.41-21.91-4.53-46.56,14.6-61.65,12.4-9.79,29.99-11.66,44.71-5.63-12.73.26-24.21.52-34,7.69-10.05,7.36-15.99,18.11-15.97,30.08.04,24.63,24.31,39.72,46.1,42.79,38.59,5.44,89.99-12.56,125.51-28.51,66.57-29.88,159.14-85.01,213.29-133.28,24.45-21.79,47.9-50.46,60.12-80.82,4.95-12.3,7.23-24.63,11.15-37.94,2.41,74.48-52.33,134.74-107.47,178.55-36.52,29.01-75.65,53.16-116.8,75.07-39.07,20.8-77.57,37.14-120.43,47.43l-9.29,20.66c-6.63,14.74-13.2,28.92-18.79,44.09-2.49,6.75-3.11,14.23-2.25,21.04,1.75,13.78,18.05,15.26,29.72,16.12v12.92h-116.05v-12.92c19.58-.77,36.14-9.56,47.18-25.66Z"/>
@@ -204,29 +151,22 @@
             <path d="M542.58,359.04l57.94,134.52c39.56-36.09,63.11-79.53,72.54-131.75.78-4.3,1.39-7.04,2.18-9.96.57-2.1,1.75-3.98,3.4-5.4,1.5-1.28,13.95-9.61,13.95-9.61,2.6,88.6-59.06,151.43-130.24,192.43l-19.77-49.23s0-104.76,0-121.01Z"/>
             <path d="M450.85,811.7c28.82-23.91,33.53-62.85,33.57-98.54l.1-76,26.68-13.69,16-8.5.26,84.78c.05,17.24-1.4,33.59-6.84,50.08-10.73,32.55-37.15,58.61-69.77,69.28v-7.41"/>
             <path d="M561.06,298.46c-28.82,23.91-33.53,62.85-33.57,98.54l-.1,155-42.69,20.17-.25-161.78c-.05-17.24,1.4-33.59,6.84-50.08,10.73-32.55,37.15-58.61,69.77-69.28v7.41h0Z"/>
-            <path d="M443.37,490.77c6.05-21.63,7.56-52.43-7.84-70.19-10.93-12.59-29.54-16.76-43.19-6.98-8.3,5.95-12.3,16.27-10.59,25.65,1.27,6.98,4.99,12.72,10.15,15.5,6.22,3.35,13.12,4.11,19.42.6,3.68-2.06,5.61-6.49,7.18-10.09.18.55.83,3.48.66,4.41-2.15,8.22-11.72,15.02-21.34,14.26-14.86-1.16-25.98-11.09-29.16-25.97-4.31-20.19,6.52-41.3,25.93-48.97,20.59-8.14,42.75-2.03,56.7,14.85,20.18,24.41,20.87,63.08,13.95,92.76-7.71,33.01-25.25,69.59-39.16,101.2-10.08,3.97-19.36,7.14-30.91,9.58l28.53-64.27c7.7-17.35,14.57-34.09,19.68-52.34Z"/>
-            <path d="M395.22,558.14s-44.41-55.96-136.37-26.8c0,.2,8.02-15.65,8.02-15.65,0,0,82.57-25.83,128.35,42.46Z"/>
-            <path d="M403.24,546.6s-46.76-61.24-121.7-51.46c.2-.39,8.41-13.11,8.41-13.11,0,0,72.39-7.04,113.28,64.57Z"/>
-            <path d="M404.61,529.97s-27.39-53.02-95.87-63.59c.59-.2,10.96-9.98,10.96-9.98,0,0,61.83,11.54,84.91,73.57Z"/>
-            <path d="M606.52,454.44s36.98-55.17,12.13-82.57c.2,0,8.59-11.35,8.59-11.35,0,0,33.02,42.91-20.72,93.91Z"/>
-            <path d="M642.84,546.02s86.09-52.43,116.61-102.13c0,0,30.13,36.39-116.61,102.13Z"/>
-            <path d="M655.75,560.11s58.3-24.65,71.22-34.43c-.78.39-.39,28.57-71.22,34.43Z"/>
           </g>
         </svg>
-        <span class="logo-text">Areen</span>
+        <span class="logo-text">أرين</span>
       </a>
-      <a href="/" class="back-link">
+      <a href="/ar/" class="back-link">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M19 12H5M12 19l-7-7 7-7"/>
+          <path d="M5 12H19M12 5l7 7-7 7"/>
         </svg>
-        Back to Home
+        العودة للرئيسية
       </a>
     </div>
   </header>
 
   <main>
-    <h1>Get in Touch</h1>
-    <p class="subtitle">Have questions, feedback, or just want to say hello? We'd love to hear from you.</p>
+    <h1>تواصل معنا</h1>
+    <p class="subtitle">لديك أسئلة أو ملاحظات أو تريد فقط أن تقول مرحباً؟ يسعدنا أن نسمع منك.</p>
 
     <div class="contact-cards">
       <a href="mailto:hello@areen.ai" class="contact-card">
@@ -235,8 +175,8 @@
             <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
           </svg>
         </div>
-        <h3>Email Us</h3>
-        <p>For general inquiries and support</p>
+        <h3>راسلنا</h3>
+        <p>للاستفسارات العامة والدعم</p>
         <span class="contact-link">hello@areen.ai</span>
       </a>
 
@@ -246,8 +186,8 @@
             <path d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/>
           </svg>
         </div>
-        <h3>Support</h3>
-        <p>Technical help and troubleshooting</p>
+        <h3>الدعم الفني</h3>
+        <p>المساعدة التقنية وحل المشكلات</p>
         <span class="contact-link">support@areen.ai</span>
       </a>
 
@@ -257,8 +197,8 @@
             <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
           </svg>
         </div>
-        <h3>Twitter</h3>
-        <p>Follow us for updates</p>
+        <h3>تويتر</h3>
+        <p>تابعنا للحصول على آخر الأخبار</p>
         <span class="contact-link">@aaborji</span>
       </a>
     </div>
@@ -266,12 +206,12 @@
 
   <footer>
     <div class="footer-links">
-      <a href="/">Home</a>
-      <a href="/privacy.html">Privacy Policy</a>
-      <a href="/terms.html">Terms of Service</a>
-      <a href="/contact.html">Contact</a>
+      <a href="/ar/">الرئيسية</a>
+      <a href="/ar/privacy.html">سياسة الخصوصية</a>
+      <a href="/ar/terms.html">شروط الخدمة</a>
+      <a href="/ar/contact.html">تواصل معنا</a>
     </div>
-    <div class="copyright">&copy; 2026 Areen. All rights reserved.</div>
+    <div class="copyright">&copy; 2026 أرين. جميع الحقوق محفوظة.</div>
   </footer>
 </body>
 </html>
